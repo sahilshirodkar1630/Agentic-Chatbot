@@ -12,5 +12,6 @@ class BasicChatbotNode:
         """
         Processes the input and generates a chatbot response.
         """
+        print("STATE RECEIVED =", state)
 
-        return { "messages":self.llm.invoke(state["message"])}
+        return { "messages":self.llm.invoke(state["messages"])}
