@@ -5,7 +5,6 @@ def get_tavily_tool():
     """
     Return the list of tools to be used in the chatbot
     """
-
     tavily_tool = [TavilySearchResults(max_result=2)]
     return tavily_tool
 
