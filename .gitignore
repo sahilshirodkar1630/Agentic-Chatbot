@@ -1,4 +1,5 @@
 # Python-generated files
+AINews/
 venv/
 .env
 uv.lock
